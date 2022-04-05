@@ -14,7 +14,7 @@ const initialState:AuthState = {
     nombre: ""
 }
 
-type LoginPayload = {
+interface LoginPayload  {
     username: string,
     nombre: string
 }
